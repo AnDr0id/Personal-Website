@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Joseph Sumsion | Web Developer</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/spacelab/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sZG5VVk41YqhJjYXgJFoRVd3d2AdDgy4oyIytQJMGx/Mizz1N+5bgKQBSCGfKQnP" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <link rel="shortcut icon" href="https://img.icons8.com/color/50/000000/javascript.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <center>
+        <header>
+            <h2>
+                <div class="text-white">Joe Sumsion, Web Developer</div>
+            </h2>
+        </header>
+    </center>
+    <div class="container">
+        <div class="row justify-content-around">
+            <div class="col-6">
+                <left><img src="Images/joseph.jpg" alt="Joseph Sumsion"></left>
+            </div>
+            <div class="col-6">
+                <h3>About Me</h3>
+                <p>I am a Full Stack student at Southern Careers Institute with an emphasis on JavaScript and web
+                    development. I love designing websites!</p>
+                <a href="http://www.facebook.com/jmsumsion"><img class="social" src="Images/facebook.ico"></a>
+                <a href="http://www.twitter.com/sumsionjm"><img class="social" src="Images/twitter.ico"></a>
+                <a href="http://www.instagram.com/sumsionjm"><img class="social" src="Images/instagram.ico"></a>
+                <a href="https://www.linkedin.com/in/joseph-sumsion-66243665"><img class="social" src="Images/linkedin.ico"></a>
+                <a href="http://www.github.com/AnDr0id"><img class="social" src="Images/github.ico"></a>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <h3>My Tech Skills</h3>
+                <ul>
+                    <li>JavaScript</li>
+                    <li>HTML and CSS</li>
+                </ul>
+            </div>
+                <div class="col-6" id="activerepos">
+                        <p>My Active Repositories on GitHub:</p>
+                        GitHub Username:
+                        <input type="text" id="username" value="AnDr0id" />
+                        <button type="button" class="btn btn-success" onclick="loadRepos()">Load Repos</button>
+                        <ul id="repos">
+                            <li>
+                                <a href="{repo.html_url}"></a>
+                            </li>
+                        </ul>
+                    </div>
+        </div>
+    </div>
+        <div class="row">
+            <div class="col-sm"></div>
+        </div>
+
+        <footer id="sticky">
+                <div class="container contact">
+                  <h5>---<strong> Contact Me! </strong>---</h5>
+                  <span>&#9993;</span>
+                  <a href="mailto:joesumsion@gmail.com">Email Me</a>
+                  <address>
+                    3822 Asia Road<br/>
+                    North Las Vegas, NV 89032</br>
+                    1.702.505.6405
+                  </address>
+                </div>
+                
+              </footer>
+
+</body>
+
+</html>
